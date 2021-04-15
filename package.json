@@ -1,0 +1,16 @@
+{
+  "name": "calldata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "insertQuery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "*",
+    "mongoose": "^5.12.4"
+  }
+}
