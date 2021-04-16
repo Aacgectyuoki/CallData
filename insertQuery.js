@@ -1,7 +1,7 @@
 let obj = require("mongoose"); 
+let fs =require("fs");
 obj.Promise= global.Promise;  
 let url = "mongodb://localhost:27017/meanstack";
-let fs =require("fs");
 fs.readFile('call_data.json', 'utf8', function(err, data){
     const mongooseDbOption ={   
         useNewUrlParser: true,
